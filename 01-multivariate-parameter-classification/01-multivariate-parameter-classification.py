@@ -3,7 +3,7 @@
 
 # ### DASC521: Intro to ML
 # ### Homework 1: Multivariate Parametric Classification
-# ### Gamze Keçibaş  
+# ### Gamze Keçibaş 60211  
 # ---
 # ### CONTENT
 # - **Step 01.** Import Libraries    
@@ -56,6 +56,7 @@ plt.Figure()
 plt.plot(p1.T[0], p1.T[1],'ro')
 plt.plot(p2.T[0], p2.T[1],'go')
 plt.plot(p3.T[0], p3.T[1],'bo')
+plt.legend(['Class 1','Class 2','Class 3'])
 plt.axis('equal')
 plt.xlim([-6, 6]), plt.ylim([-6, 6])
 plt.xlabel('x1'), plt.ylabel('x2'), plt.title('Randomly Generated Set')
@@ -72,6 +73,7 @@ K= np.max(Y)
 n= X.shape[0]
 
 sample_means= [np.mean(X[Y == (c+1)], axis=0) for c in range(K)]
+print('Sample means\n')
 for i in range(len(sample_means)):
     print(f'Class [{i+1}]:')
     print(sample_means[i])
@@ -83,6 +85,10 @@ for i in range(len(sample_means)):
 
 
 sample_covs= [np.dot((X[Y== c+1] - sample_means[c]).T,(X[Y== c+1] - sample_means[c]))/N[c] for c in range(K)]
+print('Sample covariances\n')
+for j in range(len(sample_means)):
+    print(f'Class [{j+1}]:')
+    print(sample_covs[j])
 
 
 # #### Calculate Priors 
@@ -91,15 +97,15 @@ sample_covs= [np.dot((X[Y== c+1] - sample_means[c]).T,(X[Y== c+1] - sample_means
 
 
 class_priors= [np.mean(Y== (c+1)) for c in range(K)]
-class_priors
 sum(class_priors)
-
+print('Sample priors\n')
 for m in range(len(class_priors)):
     print(f'Prior probability of Class [{m+1}]: ', class_priors[m])
 print('\nTotal probability= ', sum(class_priors))
 
 
 # ### Step 04. Calculate Confusion Matrix
+# #### Make predictions
 
 # In[6]:
 
@@ -155,6 +161,7 @@ plt.plot(X[Y == 1, 0], X[Y == 1, 1], "r.", markersize = 10)
 plt.plot(X[Y == 2, 0], X[Y == 2, 1], "g.", markersize = 10)
 plt.plot(X[Y == 3, 0], X[Y == 3, 1], "b.", markersize = 10)
 plt.plot(X[y_pred != Y, 0], X[y_pred != Y, 1], "ko", markersize = 10, fillstyle = "none")
+plt.legend(['Class 1','Class 2','Class 3'])
 
 x1_grid, x2_grid = np.meshgrid(x1_interval, x2_interval)
 
