@@ -1,6 +1,6 @@
 # dasc-521  
 ---  
-This repo includes weekly homeworks of FALL'21 Koç University Introduction to Machine Learning (DASC521/ ENGR421) course. Jupyter Notebook, Python script and a short project report are presented for each homework below:  
+This repository includes weekly homeworks of FALL'21 Koç University Introduction to Machine Learning (DASC521/ ENGR421) course. Jupyter Notebook, Python script and a short project report are presented for each homework below:  
 - **01-multivariate-parameter-classification:**    
   - [JNotebook](https://github.com/gamzekecibas/dasc-521/blob/main/01-multivariate-parameter-classification/01-multivariate-parameter-classification.ipynb)
   - [py code](https://github.com/gamzekecibas/dasc-521/blob/main/01-multivariate-parameter-classification/01-multivariate-parameter-classification.py)  
