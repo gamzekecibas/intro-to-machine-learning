@@ -2,30 +2,30 @@
 ---  
 This repository includes weekly homeworks of FALL'21 Koç University Introduction to Machine Learning (DASC521/ ENGR421) course. Jupyter Notebook, Python script and a short project report are presented for each homework below:  
 - **01-multivariate-parameter-classification:**    
-  - [JNotebook](https://github.com/gamzekecibas/dasc-521/blob/main/01-multivariate-parameter-classification/01-multivariate-parameter-classification.ipynb)
+  - [Notebook](https://github.com/gamzekecibas/dasc-521/blob/main/01-multivariate-parameter-classification/01-multivariate-parameter-classification.ipynb)
   - [py code](https://github.com/gamzekecibas/dasc-521/blob/main/01-multivariate-parameter-classification/01-multivariate-parameter-classification.py)  
   - [Report](https://github.com/gamzekecibas/dasc-521/blob/main/01-multivariate-parameter-classification/01-multivariate-parameter-classification.pdf)    
 - **02-naïve-bayes-classifier:**    
-  - [JNotebook](https://github.com/gamzekecibas/dasc-521/blob/main/02-na%C3%AFve-bayes-classifier/02-na%C3%AFve-bayes-classifier.ipynb)
+  - [Notebook](https://github.com/gamzekecibas/dasc-521/blob/main/02-na%C3%AFve-bayes-classifier/02-na%C3%AFve-bayes-classifier.ipynb)
   - [py code](https://github.com/gamzekecibas/dasc-521/blob/main/02-na%C3%AFve-bayes-classifier/02-na%C3%AFve-bayes-classifier.py)  
   - [Report](https://github.com/gamzekecibas/dasc-521/blob/main/02-na%C3%AFve-bayes-classifier/02-na%C3%AFve-bayes-classifier.pdf)    
 - **03-discrimination-by-regression:**    
-  - [JNotebook](https://github.com/gamzekecibas/dasc-521/blob/main/03-discrimination-by-regression/03-discrimination-by-regression.ipynb)
+  - [Notebook](https://github.com/gamzekecibas/dasc-521/blob/main/03-discrimination-by-regression/03-discrimination-by-regression.ipynb)
   - [py code](https://github.com/gamzekecibas/dasc-521/blob/main/03-discrimination-by-regression/03-discrimination-by-regression.py)  
   - [Report](https://github.com/gamzekecibas/dasc-521/blob/main/03-discrimination-by-regression/03-discrimination-by-regression.pdf)    
 - **04-nonparametric-regression:**    
-  - [JNotebook](https://github.com/gamzekecibas/dasc-521/blob/main/04-nonparametric-regression/04-nonparametric-regression.ipynb)
+  - [Notebook](https://github.com/gamzekecibas/dasc-521/blob/main/04-nonparametric-regression/04-nonparametric-regression.ipynb)
   - [py code](https://github.com/gamzekecibas/dasc-521/blob/main/04-nonparametric-regression/04-nonparametric-regression.py)  
   - [Report](https://github.com/gamzekecibas/dasc-521/blob/main/04-nonparametric-regression/04-nonparametric-regression.pdf)    
 - **05-decision-tree-regression:**    
-  - [JNotebook](https://github.com/gamzekecibas/dasc-521/blob/main/05-decision-tree-regression/05-decision-tree-regression.ipynb)
+  - [Notebook](https://github.com/gamzekecibas/dasc-521/blob/main/05-decision-tree-regression/05-decision-tree-regression.ipynb)
   - [py code](https://github.com/gamzekecibas/dasc-521/blob/main/01-multivariate-parameter-classification/01-multivariate-parameter-classification.py)  
   - [Report](https://github.com/gamzekecibas/dasc-521/blob/main/05-decision-tree-regression/05-decision-tree-regression.py)    
 - **07-expectation_maximization-clustering:**    
-  - [JNotebook](https://github.com/gamzekecibas/dasc-521/blob/main/07-expectation_maximization-clustering/07-expectation-maximization-clustering.ipynb)
+  - [Notebook](https://github.com/gamzekecibas/dasc-521/blob/main/07-expectation_maximization-clustering/07-expectation-maximization-clustering.ipynb)
   - [py code](https://github.com/gamzekecibas/dasc-521/blob/main/07-expectation_maximization-clustering/07-expectation-maximization-clustering.py)  
   - [Report](https://github.com/gamzekecibas/dasc-521/blob/main/07-expectation_maximization-clustering/07-expectation-maximization-clustering.pdf)    
 - **08-spectral-clustering:**    
-  - [JNotebook](https://github.com/gamzekecibas/dasc-521/blob/main/08-spectral-clustering/08-spectral-clustering.ipynb)
+  - [Notebook](https://github.com/gamzekecibas/dasc-521/blob/main/08-spectral-clustering/08-spectral-clustering.ipynb)
   - [py code](https://github.com/gamzekecibas/dasc-521/blob/main/08-spectral-clustering/08-spectral-clustering.py)  
   - [Report](https://github.com/gamzekecibas/dasc-521/blob/main/08-spectral-clustering/08-spectral-clustering.pdf)    
